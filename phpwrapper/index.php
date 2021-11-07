@@ -4,5 +4,5 @@
 	////
 
 	// Redirect to Video Browser
-	header("Location: /videos/browse.php");
+	header("Location: /yourvideos");
 ?>
