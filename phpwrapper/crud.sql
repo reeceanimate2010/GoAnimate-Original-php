@@ -1,0 +1,12 @@
+CREATE TABLE `crud` (
+  `id` int(11) NOT NULL,
+  `signup-firstname` varchar(100) NOT NULL,
+  `signup-lastname` varchar(100) NOT NULL,
+  `signup-company-name` varchar(100) NOT NULL,
+  `signup-role` varchar(100) NOT NULL,
+  `signup-other-job` varchar(100) NOT NULL,
+  `signup-phone-dialcode` varchar(100) NOT NULL,
+  `signup-phone` varchar(100) NOT NULL,
+  `signup-email` varchar(100) NOT NULL,
+  `signup-password` varchar(12) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
