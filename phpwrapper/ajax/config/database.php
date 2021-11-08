@@ -1,6 +1,6 @@
 <?php
 	$servername = "localhost";
-  $port = "6596";
+        $port = "6596";
 	$username = "root";
 	$password = "";
 	$db="school";
