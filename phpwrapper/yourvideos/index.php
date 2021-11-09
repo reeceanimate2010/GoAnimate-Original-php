@@ -295,8 +295,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 			";
 		} else {
-			// Loop video div with decreasing ID until it reaches the first ID
-			for ($videoId = $id; $videoId >= 1; $videoId-=1) {
 				echo '
 <div class="my-video-container">
 
@@ -356,7 +354,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<td></td>
 			</tr>
 		</thead>
-		<tbody>'?><?php include_once "../goapi/function/videoId.php"; for ($videoId = $id; $videoId >= 1; $videoId-=1) { echo "<tr><td><img src=\"/_user-files/videos/video-thumb-{$videoId}.png\"></td><td><div>Your Animation</div><div>00:00</div></div></td><td><span>12 Mar 2021</span></td><td><a href=\"/videos/?movie={$videoId}\"></a><a href=\"/videomaker/full/editcheck/?video={$videoId}\"></a><a href=\"/_user-files/videos/video-xml-{$videoId}.zip\"></td></tr>"?><?php echo '</tbody>
+		'?><?php include_once "../goapi/function/videoId.php"; for ($videoId = $id; $videoId >= 1; $videoId-=1) { echo "<tbody><tr><td><img src=\"/_user-files/videos/video-thumb-{$videoId}.png\"></td><td><div>Your Animation</div><div>00:00</div></div></td><td><span>12 Mar 2021</span></td><td><a href=\"/videos/?movie={$videoId}\"></a><a href=\"/videomaker/full/editcheck/?video={$videoId}\"></a><a href=\"/_user-files/videos/video-xml-{$videoId}.zip\"></td></tr></tbody>"; } else { echo "<tbody></tbody>"; } ?><?php echo '
 	
         </table>
 
