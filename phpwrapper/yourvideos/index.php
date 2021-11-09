@@ -17,11 +17,11 @@
 
 
 <link href="https://josephcrosmanplays532.github.io/fonts/1/sailec.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/static/ad44370a650793d9/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
 
 <link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/watermark.css.gz.css" rel="stylesheet" type="text/css">
 <link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/video.css.gz.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/myvideos.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/static/ad44370a650793d9/go/css/myvideos.css.gz.css" rel="stylesheet" type="text/css">
 <link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/video_export.css.gz.css" rel="stylesheet" type="text/css">
 <link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/vm5_alpha/banner.css.gz.css" rel="stylesheet" type="text/css">
 <!--[if lt IE 9]>
@@ -106,7 +106,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <div class="site-header">
-    <div class="navbar site-nav site-nav--legacy" role="navigation">
+    <div class="navbar site-nav" role="navigation">
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -114,71 +115,43 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/yourvideos" title="Vyond">
-                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png">
-                  </a>
+                <a class="navbar-brand" href="/" title="GoAnimate">
+                    <img alt="Make a Video Online with GoAnimate.com" src="https://josephcrosmanplays532.github.io/static/ad44370a650793d9/go/img/business_video/home/logo.png">
+                </a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
+                
                 <ul class="nav navbar-nav navbar-right">
-<li class="dropdown">
-    <a class="dropdown-toggle" href="https://support.vyond.com" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
-    <ul class="dropdown-menu dropdown-menu-help">
-
-        <li>
-            <a href="#" onclick="zE.activate({hideOnClose: true});amplitudeTrackCtaHelp('quick_search');return false;">Quick Search</a>
-        </li>
-        <li>
-            <a href="https://support.vyond.com" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
-        </li>
-        <li>
-            <a href="https://josephcrosmanplays532.github.io/whatsnew" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
-        </li>
-    </ul>
-</li>
-
-<script>
-    $('.dropdown-menu-help').click(function(e) {
-        e.stopPropagation();
-    });
-</script>
-		    <li>
+                                    <li><a href="/signup">Free Trial</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" href="/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://web.archive.org/web/20180429125406/https://resources.goanimate.com/">Resources</a></li>
+                            <li><a href="https://web.archive.org/web/20180429125406/https://blog.goanimate.com/">Blog</a></li>
+                            <li><a href="https://web.archive.org/web/20180429125406/https://community.goanimate.com/">Community</a></li>
+                            <li><a href="https://web.archive.org/web/20180429125406/https://goanimate.com/videos">Featured Videos</a></li>
+                            <li><a href="https://web.archive.org/web/20180429125406/https://blog.goanimate.com/topic/case-studies">Case Studies</a></li>
+                            <li><a href="https://web.archive.org/web/20180429125406/https://support.goanimate.com/">Help Center</a></li>
+                        </ul>
+                    </li>
+                                    <li class="plans-and-pricing">
+                        <a href="https://web.archive.org/web/20180429125406/https://goanimate.com/business/videoplans/?hook=header_button.site">Plans &amp; Pricing</a>
+                    </li>
+                    <li>
                         <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
                         <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                     </li>
-<li class="dropdown">
-    <a class="dropdown-toggle" href="https://app.vyond.com/v2/profile" data-toggle="dropdown">
-        <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
-        <div class="site-nav__profile-image">
-            <div class="badge-circle">U</div>
-        </div><span class="dropdown-caret"></span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-user">
-        <li class="dropdown-user-profile">
-            <div class="dropdown-user-profile__display-name">
-                You            </div>
-        </li>
-        <li class="divider"></li>
-        <li><a href="/profile/you.html">Profile Settings</a></li>
-        <li><a href="https://app.vyond.com/v2/users/list">Users</a></li>
-        <li><a href="https://app.vyond.com/v2/security">Security</a></li>
-        <li><a href="https://app.vyond.com/v2/subscription">Subscription</a></li>
-        <li class="divider"></li>
-        <li><a href="https://app.vyond.com/video/list" onClick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
-        <li class="divider"></li>
-        <li><a class="gtm-logout" href="https://ga.vyond.com/logoff">Log Out</a></li>
-    </ul>
-</li>
-
-<script>
-    $('.dropdown-menu-user').click(function(e) {
-        e.stopPropagation();
-    });
-</script>
                 </ul>
             </div>
+
+            <div class="noti_tooltips_container"></div>
+        </div>
     </div>
 </div>
+    <script>var notiTooltips = new NotificationTooltips($('#idxNotibtn'));</script>
+
 
 <script>
     jQuery('.logout-link').click(function(){
@@ -493,11 +466,74 @@ var folderCounts = 0;
 
 <!-- FOOTER -->
 
-<footer class="site-footer">
+<div class="site-footer">
     <div class="container">
-        Vyond is a trademark of 2021 GoAnimate Inc. <a href="https://www.vyond.com/terms">Terms of Service</a> | <a href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookie Policy</a>
+        <div class="site-footer-nav row">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>About GoAnimate</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/about">Who we are</a></li>
+                        <li><a href="https://web.archive.org/web/20180429125406/https://resources.goanimate.com/careers/">Careers</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
+                        <li><a href="https://web.archive.org/web/20180429125406/https://blog.goanimate.com/">Blog</a></li>
+                        <li><a href="https://josephcrosmanplays.wordpress.com/2021/9/22">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>GoAnimate Solutions</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://goanimate-original.herokuapp.com?hook=footer_button.site">GoAnimate For Chromebooks</a></li>
+                        <li><a href="https://action-ouranimate.herokuapp.com/login?returnTo=/dashboard/videos?hook=footer_button.site">OurAnimate</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>Usage Guidelines</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/termsofuse">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="//web.archive.org/web/20180429125406/https://support.goanimate.com/hc/en-us/articles/202408574" target="_blank">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4>Getting Help</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="https://web.archive.org/web/20180429125406/https://resources.goanimate.com/">Resources</a></li>
+                        <li><a href="https://web.archive.org/web/20180429125406/https://support.goanimate.com/">Help Center</a></li>
+                        <li><a href="https://web.archive.org/web/20180429125406/https://community.goanimate.com/">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials">
+                        <li><a class="glyph-social glyph-facebook" href="https://www.facebook.com/GoAnimateInc"><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="glyph-social glyph-twitter" href="https://twitter.com/GoAnimate"><span class="sr-only">Twitter</span></a></li>
+                        <li><a class="glyph-social glyph-linked-in" href="https://www.linkedin.com/company/goanimate"><span class="sr-only">LinkedIn</span></a></li>
+                        <li><a class="glyph-social glyph-youtube" href="https://www.youtube.com/user/GoAnimate"><span class="sr-only">YouTube</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="site-footer-copyright">
+                    <img src="https://josephcrosmanplays532.github.io/static/ad44370a650793d9/go/img/footer/logo_amazon.png" alt="AWS Partner Network"/>
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="ga-copy">GoAnimate &copy; 2018</div>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
+</div>
 
 
 <div id="studio_container" style="display: none;">
